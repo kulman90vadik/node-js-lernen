@@ -22,7 +22,8 @@ class Article {
   }
 
   static find(id, cb) {
-    db.get('SELECT * FROM articles id = ?', id, cb)
+    // db.get('SELECT * FROM articles id = ?', id, cb)
+    db.get('SELECT * FROM articles WHERE id = ?', id, cb)
   }
 
   static create(data, cb) {
