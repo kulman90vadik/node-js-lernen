@@ -13,6 +13,7 @@
     "body-parser": "^2.2.0",
     "dotenv": "^17.1.0",
     "express": "^5.1.0",
+    "node-readability": "^3.0.0",
     "sqlite3": "^5.1.7"
   }
 }
